@@ -21,6 +21,9 @@ body{
     font-size: 1.5rem;
     color: #dadfe6;
 }
+.navbar i:hover{
+    cursor: pointer;
+}
 .navbar i:nth-child(1){
     color: #fe466d;
 }

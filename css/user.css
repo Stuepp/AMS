@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f7fa;
+    height: 100vh;
+    width: 100%;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 44px;
+}
+.navbar i{
+    font-size: 1.5rem;
+    color: #dadfe6;
+}
+.navbar i:hover{
+    cursor: pointer;
+}
+.navbar i:nth-child(1){
+    color: #fe466d;
+}
+
+@media(min-width: 1025px){
+    .navbar{
+        width: 400px;
+        margin: auto;
+    }
+}
