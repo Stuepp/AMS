@@ -95,9 +95,9 @@ body{
     transform: scale(1.1);
 }
 /*arrumar os icones estão na tag img*/
-.actions .action:nth-child(1){/*X bt*/
-    /*background: #fd5068;*/
-}
+/*.actions .action:nth-child(1){ X bt
+    background: #fd5068;
+}*/
 .actions .action:nth-child(2){/*Star bt*/
     margin: 0 1rem;
     /*background: #2db1ff;*/
@@ -105,9 +105,9 @@ body{
     width: 40px;
     font-size: 1.5rem;
 }
-.actions .action:nth-child(3){
-    /*background: #1be4a1;*/
-}
+/*.actions .action i img:nth-child(3){ heart bt
+    background: #1be4a1;
+}*/
 
 /* Desktop view */
 @media(min-width: 1025px){
