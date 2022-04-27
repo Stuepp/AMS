@@ -48,7 +48,7 @@ class User{
 let user1 = new User('Poporoca','Roca slayer', 21, ['josé','zé'], 'imagem')// name, description, age, friends, picture
 navbts = ['friends-icon.png','chat-icon.png','user-icon.png']
 function startNavBar(){
-    let navbar = document.createElement('nav')
+    let navbar = new Navigator()
     navbar.className('navbar')
     navbar.getElementById('body').appendChild(navbar)
     for(let count = 0; count < 3; count++){

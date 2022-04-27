@@ -23,8 +23,13 @@ body{
 .navbar i:hover{
     cursor: pointer;
 }
-.navbar i:nth-child(1){
-    color: #fe466d;
+#user-icon{
+    background-color: #46fe4f;
+    border-radius: 100%;
+}
+.navbar i img{
+    width: 30px;
+    height: 30px;
 }
 
 @media(min-width: 1025px){
