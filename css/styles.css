@@ -27,6 +27,7 @@ body{
 #friends-icon{
     background-color: #46fe4f;
     border-radius: 100%;
+    box-shadow: 0 2px 6px  0 red;
 }
 .navbar i img{
     width: 30px;
