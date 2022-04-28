@@ -46,21 +46,3 @@ class User{
 }
 
 let user1 = new User('Poporoca','Roca slayer', 21, ['josé','zé'], 'imagem')// name, description, age, friends, picture
-navbts = ['friends-icon.png','chat-icon.png','user-icon.png']
-function startNavBar(){
-    let navbar = new Navigator()
-    navbar.className('navbar')
-    navbar.getElementById('body').appendChild(navbar)
-    for(let count = 0; count < 3; count++){
-        let i = document.createElement('i')
-        i.getElementsByClassName('navbar').appendChild(i)
-        i.setAttribute('id',navbts[count])
-        let img = document.createElement('img')
-        img.src = 'img/'+navbts[count]
-        img.alt = navbts[count]
-        img.style = 'width: 30px; height: 30px;'
-        img.document.getElementById('navbts[count]').appendChild(img)
-    }
-}
-
-window.onload = startNavBar()
