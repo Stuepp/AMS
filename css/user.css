@@ -32,10 +32,53 @@ body{
     width: 30px;
     height: 30px;
 }
+/*User-photo*/
+.user-photo{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    width: 98vw;
+    height: 40vh;
+    background: url('../img/Vader.jpg') center center/cover;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    color: #eee;
+}
+.photo-name-and-age{
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+    font-size: 1.4rem;
+}
+.photo-name-and-age h2{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.photo-bio{
+    width: 100%;
+    padding: 15px;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        180deg,/*pois vai de baixo para cima*/
+        rgba(2 ,0, 36, 1) 0%,
+        rgba(35, 34, 65, 0) 0%,
+        rgba(0, 0, 0, 0.7) 57%
+    );
+    border-radius: 10px;
+}
 
 @media(min-width: 1025px){
     .navbar{
         width: 400px;
         margin: auto;
+    }
+    .photo{
+        width: 367px;
+        height: 684px;
     }
 }
