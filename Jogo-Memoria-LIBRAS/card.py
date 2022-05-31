@@ -4,10 +4,15 @@ class Card:
         self.back = back
 
 # creating lists
+import glob
 cards = []
-fronts = []
-backs = []
+fronts = glob.glob('gifs/*.gif')
+back = 'pathtoback.png'
 
-def card_generator(cards, fronts, backs):
-    for x in range fronts:
-        cards.append(Card(fronts[x],backs[x]))
+def card_generator(cards, fronts, back):
+    for x in range(len(fronts)):
+        cards.append(Card(fronts[x], back))
+        print(cards[x].front)
+
+    
+card_generator(cards, fronts, back)
