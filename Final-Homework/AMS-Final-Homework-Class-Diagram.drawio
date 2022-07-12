@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T17:21:37.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="m8D0XwJk9DvpWs17GNDC" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T17:30:47.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ry-_08MQhoWToiCDbNLt" version="20.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1198" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,12 +248,7 @@
           <mxGeometry y="104" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="fE1shfOuvL8CjAbd44VH-7" value="Persistência" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1120" y="600" width="150" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="fE1shfOuvL8CjAbd44VH-8" value="Dados" style="html=1;" vertex="1" parent="fE1shfOuvL8CjAbd44VH-7">
-          <mxGeometry width="110" height="30" relative="1" as="geometry">
-            <mxPoint x="20" y="50" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1120" y="600" width="530" height="500" as="geometry" />
         </mxCell>
         <mxCell id="fE1shfOuvL8CjAbd44VH-9" value="Exceção" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1210" y="380" width="150" height="100" as="geometry" />
@@ -294,12 +289,12 @@
             <mxPoint x="88" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fE1shfOuvL8CjAbd44VH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.196;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fE1shfOuvL8CjAbd44VH-12" target="fE1shfOuvL8CjAbd44VH-7">
+        <mxCell id="fE1shfOuvL8CjAbd44VH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fE1shfOuvL8CjAbd44VH-12" target="fE1shfOuvL8CjAbd44VH-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="590" as="targetPoint" />
             <Array as="points">
               <mxPoint x="440" y="430" />
-              <mxPoint x="1149" y="430" />
+              <mxPoint x="1120" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
