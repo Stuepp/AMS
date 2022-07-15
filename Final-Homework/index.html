@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class='memory-game'>
+        <div class='memory-card' data-framework='あひる'>
+            <div class='back-face'>
+                <img src="img/あひる.jpg" alt="Pato">
+                <h1>Pato</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class="memory-card" data-framework="あひる"><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/pato.jpg" alt="Pato-libra">
+                <h1>あひる</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='あらいぐま'>
+            <div class='back-face'>
+                <img src="img/あらいぐま.jpg" alt="guaxinim">
+                <h1>Guaxinim</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class="memory-card" data-framework='あらいぐま'><!--add escrita em libras e sinal-->
+            <div class='back-face'>
+                <img src="" alt="guaxinim-sinal">
+                <h1>あらいぐま</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='いぬ'>
+            <div class='back-face'>
+                <img src="img/いぬ.jpg" alt="Cachorro">
+                <h1>Cachorro</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='いぬ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/cachorro.jpg" alt="cachorro-sinal">
+                <h1>いぬ</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='うさぎ'>
+            <div class='back-face'>
+                <img src="img/うさぎ.jpg" alt="coelho">
+                <h1>Coelho</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='うさぎ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <video controls>
+                    <source src="sinal-img/coelho.mp4">
+                </video>
+                <h1>うさぎ</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='うし'>
+            <div class='back-face'>
+                <img src="img/うし.jpg" alt="vaca">
+                <h1>Vaca</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='うし'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/vaca.jpg" alt="sinal-vaca">
+                <h1>うし</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt='?'>
+            </div>
+        </div>
+        <div class='memory-card' data-framework='おおかみ'>
+            <div class='back-face'>
+                <img src="img/おおかみ.jpg" alt="Lobo">
+                <h1>Lobo</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='おおかみ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/lobo.jpg" alt="sinal-lobo">
+                <h1>おおかみ</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かえる'>
+            <div class='back-face'>
+                <img src="img/かえる.jpg" alt="sapo">
+                <h1>Sapo</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かえる'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/sapo.jpg" alt="sinal-sapo">
+                <h1>かえる</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='がちょう'>
+            <div class='back-face'>
+                <img src="img/がちょう.jpg" alt="Ganso">
+                <h1>Ganso</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='がちょう'><!--add escrita em libras-->
+            <div class='back-face'>
+                <video controls>
+                    <source src="sinal-img/ganso.mp4">
+                </video>
+                <h1>がちょう</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かば'>
+            <div class='back-face'>
+                <img src="img/かば.jpg" alt="Hipopótamo">
+                <h1>Hipopótamo</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かば'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/hipopotamo.jpg" alt="sinal-hipopotamo">
+                <h1>かば</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かめ'>
+            <div class='back-face'>
+                <img src="img/かめ.jpg" alt="Tartaruga">
+                <h1>Tartaruga</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='かめ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/tartaruga.jpg" alt="sinal-tartaruga">
+                <h1>かめ</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?" widht='200px' height='200px'>
+            </div>
+        </div>
+        <div class='memory-card' data-framework='きつね'>
+            <div class='back-face'>
+                <img src="img/きつね.jpg" alt="Raposa">
+                <h1>Raposa</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='きつね'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/raposa.jpg" alt="sinal-raposa">
+                <h1>きつね</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='きりん'>
+            <div class='back-face'>
+                <img src="img/きりん.jpg" alt="Girafa">
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='きりん'><!--add escrita em libras-->
+            <div class="back-face">
+                <video controls>
+                    <source src="sinal-img/girafa.mp4">
+                </video>
+                <h1>きりん</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='にわとり'>
+            <div class='back-face'>
+                <img src="img/にわとり.jpg" alt="Galinha">
+                <h1>Galinha</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='にわとり'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/galinha.jpg" alt="sinal-galinha">
+                <h1>にわとり</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?" widht='200px' height="200px">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ねこ'>
+            <div class='back-face'>
+                <img src="img/ねこ.jpg" alt="Gato">
+                <h1>Gato</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ねこ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/gato.jpg" alt="sinal-gato">
+                <h1>ねこ</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ねずみ'>
+            <div class='back-face'>
+                <img src="img/ねずみ.jpg" alt="Rato">
+                <h1>Rato</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ねずみ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/rato.jpg" alt="sinal-rato">
+                <h1>ねずみ</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ひつじ'>
+            <div class='back-face'>
+                <img src="img/ひつじ.jpg" alt="Ovelha">
+                <h1>Ovelha</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ひつじ'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/ovelha.jpg" alt="sinal-ovelha">
+                <h1>ひつじ</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ひよこ'>
+            <div class='back-face'>
+                <img src="img/ひよこ.jpg" alt="Pinto">
+                <h1>Pinto</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ひよこ'><!--add escrita em libras-->
+            <div class="back-face">
+                <img src="sinal-img/pinto.jpg" alt="sinal-pinto">
+                <h1>ひよこ</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ぶた'>
+            <div class='back-face'>
+                <img src="img/ぶた.jpg" alt="Porco">
+                <h1>Porco</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='ぶた'><!--add escrita em libras-->
+            <div class='back-face'>
+                <img src="sinal-img/porco.jpg" alt="sinal-porco">
+                <h1>ぶた</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='へび'>
+            <div class='back-face'>
+                <img src="img/へび.jpg" alt="Cobra">
+                <h1>Cobra</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='へび'><!--add escrita em libras-->
+            <div class='back-face'>
+                <video controls>
+                    <source src="sinal-img/cobra.mp4">
+                </video>
+                <h1>へび</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='みつばち'>
+            <div class='back-face'>
+                <img src="img/みつばち.jpg" alt="Abelha">
+                <h1>Abelha</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='みつばち'><!--add escrita em libras-->
+            <div class='back-face'>
+                <video controls>
+                    <source src="sinal-img/abelha.mp4">
+                </video>
+                <h1>みつばち</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework='わに'>
+            <div class='back-face'>
+                <img src="img/わに.jpeg" alt="Jacaré">
+                <h1>Jacaré</h1>
+            </div>
+            <div class="front-face">
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+        <div class='memory-card' data-framework="わに"><!--add escrita em libras-->
+            <div class="back-face">
+                <img src="sinal-img/jacare.jpg" alt="sinal-jacare">
+                <h1>わに</h1>
+            </div>
+            <div class='front-face'>
+                <img src="question.png" alt="?">
+            </div>
+        </div>
+    </section>
+
+    <script src='index.js'></script>
+</body>
+
+</html>
